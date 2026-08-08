@@ -7,7 +7,7 @@ import (
 )
 
 func helloHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "Hello, World. It works!")
+	fmt.Fprintln(w, "Hello, World. It works 123!")
 }
 
 func healthzHandler(w http.ResponseWriter, r *http.Request) {
